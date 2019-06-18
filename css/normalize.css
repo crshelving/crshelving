@@ -453,3 +453,9 @@ th {
   background-color: #930000;
   color: white;
 }
+
+.first {
+  background-image: url('../images/values-bg.jpg');
+  background-size: cover;
+  padding-bottom: 5rem;
+}

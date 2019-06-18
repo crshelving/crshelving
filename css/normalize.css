@@ -430,6 +430,9 @@ th {
 .topnav {
   background-color: black;
   overflow: hidden;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 }
 
 /* Style the links inside the navigation bar */

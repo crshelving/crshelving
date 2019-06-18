@@ -461,4 +461,10 @@ th {
   background-image: url('../images/values-bg.jpg');
   background-size: cover;
   padding-bottom: 5rem;
+
+}
+
+.backpic {
+	 -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+  filter: blur(5px);
 }

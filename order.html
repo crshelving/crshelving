@@ -35,47 +35,44 @@
 <header>
   <div class="topnav">
       <a  href="index.html">Home</a>
-      <a href="order.html">Order</a>
-      <a class="active" href="about.html">About</a>
+      <a class="active" href="order.html">Order</a>
+      <a href="about.html">About</a>
     </div>
 </header>
 
 <div style="padding: 8rem 0 7rem;">
   <div class="container" width="100%">
     <div class="row">
-      <h3>About Our Company</h3>
-      <p>Founded in 2019, Charles River Shelving Co. is on a mission to create the highest quality, hand-made, hanging shelves on the market.</p>
+      <h3>Order your custom shelf today!</h3>
+
     </div>
   </div>
 </div>
 
 <div style="padding: 8rem 0 7rem; background-color: #FFF4D0;">
-  <div class="container" width="100%">
-      <div class="row">
-        <div class="one-half column" style="margin-top: 5%">
-          <h5>Liam Ward</h5>
-          <img src="images/liam.jpg" style="height: 40%; width:40%;" alt="liam">
-          <p> Liam Ward is a rising sophomore in the Boston University College of Engineering. He is currently studying Mechanical Engineering</p>
-        </div>
-        <div class="one-half column" style="margin-top: 5%">
-          <h5>Sam Krasnoff</h5>
-          <img src="images/sampic.jpg" style="height: 40%; width:40%;" alt="sam">
-          <p> Sam Krasnoff is a rising sophomore in the Boston University College of Engineering. He is currently studying Computer Engineering</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="one-half column" style="margin-top: 5%">
-          <h5>Susritha Kopparapu</h5>
-          <img src="images/susritha.jpg" style="height: 40%; width:40%;" alt="susritha">
-          <p> Susritha Kopparapu is a rising sophomore in the Boston University College of Arts and Sciences. She is currently studying Biology.</p>
-        </div>
-        <div class="one-half column" style="margin-top: 5%">
-          <h5>Allen Zou</h5>
-          <img src="images/allen.jpg" style="height: 40%; width:40%;" alt="allen">
-          <p> Allen Zou is a rising sophomore in the Boston University College of Engineering. He is currently studying Computer Engineering.</p>
-        </div>
-      </div>
+  <form>
+  <div class="row">
+    <div class="six columns">
+      <label for="exampleEmailInput">Your email</label>
+      <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
     </div>
+    <div class="six columns">
+      <label for="exampleRecipientInput">Reason for contacting</label>
+      <select class="u-full-width" id="exampleRecipientInput">
+        <option value="Option 1">Questions</option>
+        <option value="Option 2">Admiration</option>
+        <option value="Option 3">Can I get your number?</option>
+      </select>
+    </div>
+  </div>
+  <label for="exampleMessage">Message</label>
+  <textarea class="u-full-width" placeholder="Hi Dave …" id="exampleMessage"></textarea>
+  <label class="example-send-yourself-copy">
+    <input type="checkbox">
+    <span class="label-body">Send a copy to yourself</span>
+  </label>
+  <input class="button-primary" type="submit" value="Submit">
+</form>
   </div>
 
   <div class="section third" style="padding: 8rem 0 7rem; background-color: #FFF4D0;">
